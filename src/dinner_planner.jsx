@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, ShoppingCart, Info } from 'lucide-react';
+import { ShoppingCart, Info } from 'lucide-react';
 
 const DinnerPlanner = () => {
   const [selectedDay, setSelectedDay] = useState(null);
